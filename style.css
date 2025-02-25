@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+#hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#hero h1 {
+  font-size: 4em;
+}
+
+#hero p {
+  font-size: 1.5em;
+}
+
+#destinations {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#destinations h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.destination-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.destination-card {
+  width: 30%;
+}
+
+.destination-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.destination-card h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+#cities {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+#cities h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+#cities ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+#cities li {
+  font-size: 1.2em;
+}
+
+#packages {
+  padding: 50px;
+  background-color: #fff;
+}
+
+#packages h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.package-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.package-card {
+  width: 30%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.package-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#contact {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+
